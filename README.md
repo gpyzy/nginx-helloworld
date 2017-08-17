@@ -17,4 +17,4 @@ This demo goes with this solution
 * -d runs the container in detached mode. Go to https://docs.docker.com/compose/reference/up/ to find more detail.
 
 ## Learned things
-* If ```rancher-compose up``` is run successfully, rancher will create a service for you, named 'helloworld'. Then I tried change the local docker-compose file and the change didn't influence the subsequnt ```rancher-compose up``` command. You need to run ```rancher-compose rm helloworld``` to remove the existing service, and then your local docker-compose.yml will be used by rancher again.
+* If ```rancher-compose up``` is run successfully, rancher will create a service for you, named 'helloworld'. Then I tried change the local docker-compose file and the change didn't influence the subsequnt ```rancher-compose up``` command. I have to run ```rancher-compose rm helloworld``` to remove the existing service, and then your local docker-compose.yml will be used by rancher again.
