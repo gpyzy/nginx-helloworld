@@ -9,4 +9,8 @@ TODO - A seperate demo will be created and go with this solution.
 ## Option 2 - use image parameter in docker-compose.yml
 This demo goes with this solution
 
+## How do I
+1) Clone this repository
+2) in bash console, cd to the repository folder
+3) run ```rancher-compose --debug up -d```
 
