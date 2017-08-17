@@ -13,6 +13,6 @@ This demo goes with this solution
 1) Clone this repository
 2) in bash console, cd to the repository folder
 3) run ```rancher-compose --debug up -d```
-a) --debug is used for display debug information in bash console
-b) -d runs the container in detached mode. Go to https://docs.docker.com/compose/reference/up/ to find more detail.
+* --debug is used for display debug information in bash console
+* -d runs the container in detached mode. Go to https://docs.docker.com/compose/reference/up/ to find more detail.
 
