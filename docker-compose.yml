@@ -1,6 +1,4 @@
 version: '2'
 services:
   helloworld:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: kitematic/hello-world-nginx
