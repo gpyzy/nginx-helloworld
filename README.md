@@ -18,3 +18,5 @@ This demo goes with this solution
 
 ## Learned things
 * If ```rancher-compose up``` is run successfully, rancher will create a service for you, named 'helloworld'. Then I tried change the local docker-compose file and the change didn't influence the subsequnt ```rancher-compose up``` command. I have to run ```rancher-compose rm helloworld``` to remove the existing service, and then your local docker-compose.yml will be used by rancher again.
+
+* I'm using MacOS to learn Rancher. By the time I do my learning, Docker for Mac doesn't support Rancher, but there is a workaround. Read the issue I submitted at https://github.com/rancher/rancher/issues/9717 to find more detail; another issue is also FYI at https://github.com/rancher/rancher/issues/9742
